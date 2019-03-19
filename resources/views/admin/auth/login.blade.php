@@ -8,7 +8,7 @@
                     <div class="col-xs-12 col-sm-12">
                         <div class="logo-section text-center">
                             <!-- <link rel="shortcut icon" type="image/png" href="https://schedule.tranxit.co/uploads/9577b9001c6a43c9d993f4faac9ceb97c7711582.jpg"> -->
-                            <img src="http://borakh.aapbd.com/uploads/fac0a8905536dd0decafb9f64232d373a47407ca.png" alt="">
+                            <img src="{{ Setting::get('site_logo') }}" alt="">
                         </div>
                     </div>
                 </div>

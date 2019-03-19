@@ -165,6 +165,7 @@
                                 <select name="currency" class="form-control" required>
                                     <option @if(Setting::get('currency') == "$") selected @endif value="$">US Dollar (USD)</option>
                                     <option @if(Setting::get('currency') == "₹") selected @endif value="₹"> Indian Rupee (INR)</option>
+                                    <option @if(Setting::get('currency') == "रू") selected @endif value="₹"> Nepalese rupee (NPR)</option>
                                     <option @if(Setting::get('currency') == "د.ك") selected @endif value="د.ك">Kuwaiti Dinar (KWD)</option>
                                     <option @if(Setting::get('currency') == "د.ب") selected @endif value="د.ب">Bahraini Dinar (BHD)</option>
                                     <option @if(Setting::get('currency') == "﷼") selected @endif value="﷼">Omani Rial (OMR)</option>
